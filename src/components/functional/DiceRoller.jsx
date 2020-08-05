@@ -36,7 +36,7 @@ const DiceRoller = () => {
             {
               currentDice !== null &&
               <h4>
-                { currentDice }가 나왔습니다 !!
+                { currentDice }이/가 나왔습니다 !!
               </h4>
             }
           </div>
