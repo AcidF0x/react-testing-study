@@ -22,7 +22,7 @@ class DiceRoller extends React.Component {
           {
             this.state.currentDice !== null &&
             <h4>
-              { this.state.currentDice }가 나왔습니다 !!
+              { this.state.currentDice }이/가 나왔습니다 !!
             </h4>
           }
         </div>
