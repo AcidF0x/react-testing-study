@@ -8,7 +8,7 @@ class DiceRoller extends React.Component {
   }
 
   rollDice = () => {
-    const currentNumber = Dice.roll()
+    const currentNumber = Dice.roll();
     this.setState({
       currentDice: currentNumber
     })

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiceBoard 테스트 렌더링을 할수있다 1`] = `
+<DiceRoller>
+  <div
+    className="dice-right-panel"
+  >
+    <div
+      className="dice-result"
+    />
+    <div
+      className="dice-desc"
+    >
+      <button
+        onClick={[Function]}
+      >
+        던지기
+      </button>
+    </div>
+  </div>
+</DiceRoller>
+`;

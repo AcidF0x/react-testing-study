@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScoreBoard 테스트 스냅샷 테스트 1`] = `
+<ScoreBoard
+  totalScore={90}
+>
+  <div
+    className="dice-score-board"
+  >
+    <div
+      className="text-center"
+    >
+      <h3>
+        총점수
+      </h3>
+      <div
+        className="score"
+      >
+        90
+        점
+      </div>
+    </div>
+  </div>
+</ScoreBoard>
+`;
