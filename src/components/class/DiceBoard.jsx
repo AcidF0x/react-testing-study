@@ -1,7 +1,6 @@
 import React from "react";
 import Dice from "../../services/Dice";
 
-
 class DiceRoller extends React.Component {
   state = {
     currentDice: null

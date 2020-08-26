@@ -2,6 +2,8 @@ import React from "react";
 import { shallow } from "enzyme";
 import DiceRoller from "../../../components/class/DiceRoller";
 
+window.alert = jest.fn();
+
 describe('ScoreBoard 테스트', () => {
   it('스냅샷 테스트', () => {
     // Given
@@ -38,7 +40,6 @@ describe('ScoreBoard 테스트', () => {
 
   it('총점수가 100점 이상 이면 점수를 0으로 만든다', () => {
     // Given
-    window.alert = jest.fn();
     const number = 100
     const wrapper = shallow(<DiceRoller/>);
 

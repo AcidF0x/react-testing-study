@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiceRoller 테스트 렌더링 테스트 1`] = `
+<Fragment>
+  <h1
+    className="text-center"
+  >
+    주사위 던지기
+  </h1>
+  <div
+    className="dice-warp"
+  >
+    <ScoreBoard
+      totalScore={0}
+    />
+    <DiceBoard
+      diceRolled={[Function]}
+    />
+  </div>
+</Fragment>
+`;
